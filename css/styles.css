@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.main_div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.logo img {
+  height: 50px;
+  width: 55px;
+  margin-left: 1rem;
+  padding: 5px 0 5px 0;
+}
+.uhost_nav nav ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 1rem;
+}
+.uhost_nav nav ul li a {
+  text-decoration: none;
+}
+.uhost_nav nav ul {
+  display: flex;
+}
+.uhost_nav nav ul li a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+.starthost_button a {
+  background-color: #fe1a67;
+  border-radius: 4px;
+  padding: 4px 6px 4px 6px;
+}
+header {
+  background-color: #2edf5d;
+}
+/* .background_img img {
+  width: 100%;
+} */
+.background_img {
+  background-image: url(../images/freedom.jpg);
+  height: 400px;
+  background-size: 100% 100%;
+  position: relative;
+}
+.slogen {
+  position: absolute;
+  color: white;
+  bottom: 6rem;
+  left: 1rem;
+  text-shadow: 3px 3px 3px white;
+}
+.plan_choose {
+  text-align: center;
+  color: #2edf5d;
+}
+.free_plan {
+  background-color: #d5fedc;
+  text-align: center;
+}
+.recommended_plan {
+  background-color: #18b84c;
+  text-align: center;
+}
+.premimum_plan {
+  background-color: #d5fedc;
+  text-align: center;
+}
+.plan_item {
+  line-height: 2rem;
+}
+.plan_but {
+  background-color: #0d501e;
+  color: white;
+  border-radius: 0.5rem;
+  width: 20%;
+}
+.article1 h1 h3 {
+  color: black;
+}
+.article1 h2 {
+  color: gray;
+}
+.art2but {
+  background-color: white;
+  color: #18b84c;
+  width: 90%;
+  border-radius: 0.5rem;
+}
+.art2plus {
+  color: white;
+}
+.article1 {
+  padding-top: 1rem;
+}
+.article2 {
+  padding-top: 1rem;
+}
+.article2 ul li {
+  color: white;
+}
+.article3 {
+  padding-top: 1rem;
+}
+.svg {
+  background-color: #ff1b68;
+  margin-top: 1rem;
+}
+.svg1 {
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #ffcfda;
+  padding: 1.5rem;
+  /* text-align: center; */
+}
+.svg_heading {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+.svg_container {
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+  line-height: 5rem;
+}
+.svg_title {
+  color: white;
+  text-align: center;
+  line-height: 7rem;
+  font-size: 1.5rem;
+}
+.li1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+
+.main-footer__links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
+}
+
+/* ------------------------------media query for web pages------------------------------------------------- */
+@media screen and (min-width: 640px) {
+  .main_div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .logo img {
+    height: 50px;
+    width: 55px;
+    margin-left: 1rem;
+  }
+  .uhost_nav nav ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+  }
+  .uhost_nav nav ul {
+    display: flex;
+  }
+  .uhost_nav nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+  }
+  li a:hover{
+    background-color: #fe1a67;
+    border-radius: 4px;
+    padding: 4px 6px 4px 6px;
+  }
+  .starthost_button a {
+    background-color: #fe1a67;
+    border-radius: 4px;
+    padding: 4px 6px 4px 6px;
+  }
+  header {
+    background-color: #2edf5d;
+  }
+  .background_img {
+    background-image: url(../images/freedom.jpg);
+    /* height: 70vh; */
+    width: 100%;
+    background-size: cover;
+    background-position: left 10% bottom 70%;
+  }
+  .freedom_img img {
+    position: relative;
+  }
+  .slogen {
+    position: absolute;
+    color: white;
+    bottom: 4rem;
+    left: 1rem;
+    text-shadow: 5px 5px 5px rgb(250, 250, 250);
+  }
+  .plan_choose {
+    text-align: center;
+    color: #2edf5d;
+    margin-top: 2%;
+  }
+  .free_plan {
+    background-color: #d5fedc;
+    text-align: center;
+  }
+  .recommended_plan {
+    background-color: #18b84c;
+    text-align: center;
+  }
+  .premimum_plan {
+    background-color: #d5fedc;
+    text-align: center;
+  }
+  .plan_item {
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2%;
+  }
+  .plan_item h2 {
+    font-size: 1rem;
+  }
+  .plan_but {
+    width: 9rem;
+    padding: 6px;
+  }
+  .article1 h1 h3 {
+    color: black;
+  }
+  .article1 h2 {
+    color: gray;
+  }
+  .art2but {
+    background-color: white;
+    width: 17rem;
+    border-radius: 0.5rem;
+  }
+  .art2plus {
+    color: white;
+  }
+  .art2ambitious {
+    color: white;
+  }
+  .art3_price {
+    color: grey;
+  }
+  .article1 {
+    padding: 1rem;
+  }
+  .free_plan:hover{
+    background-color: #90ee90;
+    box-shadow: 3px 2px 2px  orangered;
+  }
+  .recommended_plan:hover{
+    background-color: #90ee90;
+    box-shadow: 3px 2px 2px  orangered;
+  }
+  .premimum_plan:hover{
+    background-color: #90ee90;
+    box-shadow: 3px 2px 2px  orangered;
+  }
+  .free_plan {
+    height: 80%;
+    align-self: center;
+  }
+  .article2 {
+    padding: 1rem 4rem 1rem 4rem;
+  }
+  .article1 ul li {
+    color: green;
+    list-style: none;
+    font-size: 1rem;
+  }
+  .article2 ul li {
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+  }
+  .article3 ul li {
+    color: green;
+    list-style: none;
+    font-size: 1rem;
+  }
+  .article3 {
+    padding: 1rem;
+  }
+  .premimum_plan {
+    height: 80%;
+    align-self: center;
+  }
+  .svg {
+    background-color: #ff1b68;
+    margin-top: 1rem;
+  }
+  .svg1 {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #ffcfda;
+    padding: 2rem;
+    /* text-align: center; */
+  }
+  .svg_heading {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .svg_container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    line-height: 5rem;
+  }
+  .svg_title {
+    color: white;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 2rem;
+  }
+  .li1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+   
+  }
+
+  .main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+  }
+
+  .main-footer__link a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-footer__link a:hover,
+  .main-footer__link a:active {
+    color: #ccc;
+  }
+}

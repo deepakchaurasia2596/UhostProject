@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.div1 {
+  background-color: #d7ffdd;
+  border: 2px solid #387345;
+  margin: 2% 2% 2% 2%;
+  padding: 7% 0 7% 0;
+}
+.div1:hover{
+  background-color: lightgreen;
+}
+.div2:hover{
+  background-color: lightgreen;
+}
+.div3:hover{
+  background-color: lightgreen;
+}
+.div1 p {
+  border: 2px solid black;
+  background-color: white;
+  padding: 2%;
+  margin: 2% 30% 2% 2%;
+  color: #295c33;
+}
+.div1 h3 {
+  color: #979797;
+}
+.div1 h1,
+h3 {
+  padding-left: 2%;
+}
+.div2 {
+  background-color: #d7ffdd;
+  border: 2px solid #387345;
+  margin: 2% 2% 2% 2%;
+  padding: 7% 0 7% 0;
+}
+.div2 p {
+  border: 2px solid black;
+  background-color: white;
+  padding: 2%;
+  margin: 2% 2% 2% 30%;
+  text-align: right;
+  color: #295c33;
+}
+.div2 h1 {
+  text-align: right;
+  padding-right: 2%;
+}
+.div2 h3 {
+  text-align: right;
+  padding-right: 2%;
+  color: #979797;
+}
+.div3 {
+  background-color: #1a5829;
+  border: 2px solid #387345;
+  margin: 2% 2% 2% 2%;
+  padding: 7% 0 7% 0;
+}
+.div3 p {
+  border: 2px solid black;
+  background-color: white;
+  padding: 2%;
+  margin: 2% 30% 2% 2%;
+  color: #295c33;
+}
+.div3 h1,
+h3 {
+  padding-left: 2%;
+}
+.div3 h1 {
+  color: white;
+}
+.div3 h3 {
+  color: #979797;
+}
+@media screen and (min-width: 640px) {
+  .div1 {
+    background-color: #d7ffdd;
+    border: 2px solid #387345;
+    margin: 2% 30% 2% 2%;
+    padding: 2% 0 2% 0;
+  }
+  .div1 p {
+    border: 2px solid black;
+    background-color: white;
+    padding: 2%;
+    margin: 2% 30% 2% 2%;
+    color: #295c33;
+  }
+  .div1 h1,
+  h3 {
+    padding-left: 2%;
+  }
+  .div1 h3 {
+    color: #979797;
+  }
+  .div2 {
+    background-color: #d7ffdd;
+    border: 2px solid #387345;
+    margin: 2% 2% 2% 30%;
+    padding: 2% 0 2% 0%;
+  }
+  .div2 p {
+    border: 2px solid black;
+    background-color: white;
+    padding: 2%;
+    margin: 2% 2% 2% 30%;
+    text-align: right;
+    color: #295c33;
+  }
+  .div3 {
+    background-color: #1a5829;
+    border: 2px solid #387345;
+    margin: 2% 30% 2% 2%;
+    padding: 2% 0 2% 0;
+  }
+  .div3 p {
+    border: 2px solid black;
+    background-color: white;
+    padding: 2%;
+    margin: 2% 30% 2% 2%;
+    color: #295c33;
+  }
+  .div3 h1,
+  h3 {
+    padding-left: 2%;
+  }
+  .div3 h1 {
+    color: white;
+  }
+  .div3 h3 {
+    color: #979797;
+  }
+  .div2 h1 {
+    text-align: right;
+    padding-right: 2%;
+  }
+  .div2 h3 {
+    text-align: right;
+    padding-right: 2%;
+    color: #979797;
+  }
+}
